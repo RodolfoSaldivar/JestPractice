@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> Renders correctly 1`] = `
+<nav
+  id="menu"
+>
+  <Link
+    to="/"
+  >
+    Users
+  </Link>
+  <Link
+    to="/tasks"
+  >
+    Tasks
+  </Link>
+</nav>
+`;

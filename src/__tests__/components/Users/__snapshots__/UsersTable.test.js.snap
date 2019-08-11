@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UsersTable /> With 1 user Renders correctly 1`] = `
+<div>
+  <WithStyles(ForwardRef(Paper))
+    className="makeStyles-root-1"
+    elevation={3}
+  >
+    <WithStyles(ForwardRef(Table))
+      className="makeStyles-table-2"
+    >
+      <WithStyles(ForwardRef(TableHead))>
+        <WithStyles(ForwardRef(TableRow))>
+          <WithStyles(ForwardRef(TableCell))>
+            Name
+          </WithStyles(ForwardRef(TableCell))>
+          <WithStyles(ForwardRef(TableCell))>
+            Mail
+          </WithStyles(ForwardRef(TableCell))>
+          <WithStyles(ForwardRef(TableCell))>
+            Link
+          </WithStyles(ForwardRef(TableCell))>
+          <WithStyles(ForwardRef(TableCell)) />
+        </WithStyles(ForwardRef(TableRow))>
+      </WithStyles(ForwardRef(TableHead))>
+      <WithStyles(ForwardRef(TableBody))>
+        <WithStyles(ForwardRef(TableRow))
+          key="1"
+        >
+          <WithStyles(ForwardRef(TableCell))>
+            Leanne Graham
+          </WithStyles(ForwardRef(TableCell))>
+          <WithStyles(ForwardRef(TableCell))>
+            Sincere@april.biz
+          </WithStyles(ForwardRef(TableCell))>
+          <WithStyles(ForwardRef(TableCell))>
+            hildegard.org
+          </WithStyles(ForwardRef(TableCell))>
+          <WithStyles(ForwardRef(TableCell))>
+            <Link
+              to="/posts/0"
+            >
+              <VisibilityIcon
+                className="makeStyles-icon-3"
+              />
+            </Link>
+          </WithStyles(ForwardRef(TableCell))>
+        </WithStyles(ForwardRef(TableRow))>
+      </WithStyles(ForwardRef(TableBody))>
+    </WithStyles(ForwardRef(Table))>
+  </WithStyles(ForwardRef(Paper))>
+</div>
+`;
+
+exports[`<UsersTable /> Without users Renders correctly 1`] = `
+<div>
+  <WithStyles(ForwardRef(Paper))
+    className="makeStyles-root-1"
+    elevation={3}
+  >
+    <WithStyles(ForwardRef(Table))
+      className="makeStyles-table-2"
+    >
+      <WithStyles(ForwardRef(TableHead))>
+        <WithStyles(ForwardRef(TableRow))>
+          <WithStyles(ForwardRef(TableCell))>
+            Name
+          </WithStyles(ForwardRef(TableCell))>
+          <WithStyles(ForwardRef(TableCell))>
+            Mail
+          </WithStyles(ForwardRef(TableCell))>
+          <WithStyles(ForwardRef(TableCell))>
+            Link
+          </WithStyles(ForwardRef(TableCell))>
+          <WithStyles(ForwardRef(TableCell)) />
+        </WithStyles(ForwardRef(TableRow))>
+      </WithStyles(ForwardRef(TableHead))>
+      <WithStyles(ForwardRef(TableBody)) />
+    </WithStyles(ForwardRef(Table))>
+  </WithStyles(ForwardRef(Paper))>
+</div>
+`;

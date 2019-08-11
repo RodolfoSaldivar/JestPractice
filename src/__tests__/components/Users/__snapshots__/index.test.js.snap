@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Users /> Displays <Fatal /> 1`] = `
+<div>
+  <h1>
+    Users
+  </h1>
+  <Fatal
+    message="error"
+  />
+</div>
+`;
+
+exports[`<Users /> Displays <Spinner /> 1`] = `
+<div>
+  <h1>
+    Users
+  </h1>
+  <Spinner />
+</div>
+`;
+
+exports[`<Users /> Displays <UsersTable /> 1`] = `
+<div>
+  <h1>
+    Users
+  </h1>
+  <Connect(UsersTable) />
+</div>
+`;
+
+exports[`<Users /> Renders correctly 1`] = `
+<div>
+  <h1>
+    Users
+  </h1>
+  <Connect(UsersTable) />
+</div>
+`;

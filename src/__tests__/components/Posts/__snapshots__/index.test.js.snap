@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Posts /> Renders correctly 1`] = `
+<div>
+  <Spinner />
+  <div
+    className={Object {}}
+  />
+</div>
+`;
+
+exports[`<Posts /> displayPosts Returns <Fatal /> 1`] = `
+<div>
+  <h1>
+    Posts of: 
+    Leanne Graham
+  </h1>
+  <div
+    className={Object {}}
+  >
+    <Fatal
+      message="something"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Posts /> displayPosts Returns <Spinner /> 1`] = `
+<div>
+  <h1>
+    Posts of: 
+    Leanne Graham
+  </h1>
+  <div
+    className={Object {}}
+  >
+    <Spinner />
+  </div>
+</div>
+`;
+
+exports[`<Posts /> displayPosts showInfo <Comments />, openClose(), getComments() after click on <ExpansionPanel /> 1`] = `
+<div>
+  <h1>
+    Posts of: 
+    Leanne Graham
+  </h1>
+  <div
+    className={Object {}}
+  >
+    <WithStyles(ForwardRef(ExpansionPanel))
+      elevation={3}
+      key="1"
+      onClick={[Function]}
+    >
+      <WithStyles(ForwardRef(ExpansionPanelSummary))
+        expandIcon={<Memo />}
+      >
+        <h2>
+          sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+        </h2>
+      </WithStyles(ForwardRef(ExpansionPanelSummary))>
+      <WithStyles(ForwardRef(ExpansionPanelDetails))>
+        <div>
+          <h3>
+            quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto
+          </h3>
+          <Connect(Comments)
+            comments={Array []}
+          />
+        </div>
+      </WithStyles(ForwardRef(ExpansionPanelDetails))>
+    </WithStyles(ForwardRef(ExpansionPanel))>
+  </div>
+</div>
+`;
+
+exports[`<Posts /> displayPosts showInfo Displays <ExpansionPanel /> 1`] = `
+<div>
+  <h1>
+    Posts of: 
+    Leanne Graham
+  </h1>
+  <div
+    className={Object {}}
+  >
+    <WithStyles(ForwardRef(ExpansionPanel))
+      elevation={3}
+      key="1"
+      onClick={[Function]}
+    >
+      <WithStyles(ForwardRef(ExpansionPanelSummary))
+        expandIcon={<Memo />}
+      >
+        <h2>
+          sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+        </h2>
+      </WithStyles(ForwardRef(ExpansionPanelSummary))>
+      <WithStyles(ForwardRef(ExpansionPanelDetails))>
+        <div>
+          <h3>
+            quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto
+          </h3>
+        </div>
+      </WithStyles(ForwardRef(ExpansionPanelDetails))>
+    </WithStyles(ForwardRef(ExpansionPanel))>
+  </div>
+</div>
+`;
+
+exports[`<Posts /> displayPosts showInfo Does not show <Comments /> 1`] = `
+<div>
+  <h1>
+    Posts of: 
+    Leanne Graham
+  </h1>
+  <div
+    className={Object {}}
+  >
+    <WithStyles(ForwardRef(ExpansionPanel))
+      elevation={3}
+      key="1"
+      onClick={[Function]}
+    >
+      <WithStyles(ForwardRef(ExpansionPanelSummary))
+        expandIcon={<Memo />}
+      >
+        <h2>
+          sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+        </h2>
+      </WithStyles(ForwardRef(ExpansionPanelSummary))>
+      <WithStyles(ForwardRef(ExpansionPanelDetails))>
+        <div>
+          <h3>
+            quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto
+          </h3>
+        </div>
+      </WithStyles(ForwardRef(ExpansionPanelDetails))>
+    </WithStyles(ForwardRef(ExpansionPanel))>
+  </div>
+</div>
+`;
+
+exports[`<Posts /> displayUser Returns <Fatal /> 1`] = `
+<div>
+  <Fatal
+    message="something"
+  />
+  <div
+    className={Object {}}
+  />
+</div>
+`;
+
+exports[`<Posts /> displayUser Returns <Spinner /> when it is loading 1`] = `
+<div>
+  <Spinner />
+  <div
+    className={Object {}}
+  />
+</div>
+`;
+
+exports[`<Posts /> displayUser Returns <Spinner /> when there are no users 1`] = `
+<div>
+  <Spinner />
+  <div
+    className={Object {}}
+  />
+</div>
+`;
+
+exports[`<Posts /> displayUser Returns a <h1 /> 1`] = `
+<div>
+  <h1>
+    Posts of: 
+    Leanne Graham
+  </h1>
+  <div
+    className={Object {}}
+  />
+</div>
+`;

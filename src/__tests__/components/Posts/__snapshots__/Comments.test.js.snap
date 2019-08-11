@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Comments /> Renders correctly 1`] = `<ul />`;
+
+exports[`<Comments /> Returns "ul" with "li" 1`] = `
+<ul>
+  <li
+    key="1"
+  >
+    <b>
+      <u>
+        Eliseo@gardner.biz
+      </u>
+    </b>
+    <br />
+    laudantium enim quasi est quidem magnam voluptate ipsam eos tempora quo necessitatibus dolor quam autem quasi reiciendis et nam sapiente accusantium
+  </li>
+  <li
+    key="2"
+  >
+    <b>
+      <u>
+        Jayne_Kuhic@sydney.com
+      </u>
+    </b>
+    <br />
+    est natus enim nihil est dolore omnis voluptatem numquam et omnis occaecati quod ullam at voluptatem error expedita pariatur nihil sint nostrum voluptatem reiciendis et
+  </li>
+</ul>
+`;
+
+exports[`<Comments /> Returns <Fatal /> 1`] = `
+<Fatal
+  message="something"
+/>
+`;
+
+exports[`<Comments /> Returns <Spinner /> 1`] = `<Spinner />`;

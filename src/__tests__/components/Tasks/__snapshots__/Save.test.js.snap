@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SaveTasks /> Renders correctly 1`] = `
+<div>
+  <h1>
+    Save Task
+  </h1>
+  User id:
+  <input
+    onChange={[Function]}
+    type="number"
+    value=""
+  />
+  <br />
+  <br />
+  Title:
+  <input
+    onChange={[Function]}
+    value=""
+  />
+  <br />
+  <br />
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Save
+  </button>
+</div>
+`;
+
+exports[`<SaveTasks /> Renders with empty inputs 1`] = `
+<div>
+  <h1>
+    Save Task
+  </h1>
+  User id:
+  <input
+    onChange={[Function]}
+    type="number"
+    value=""
+  />
+  <br />
+  <br />
+  Title:
+  <input
+    onChange={[Function]}
+    value=""
+  />
+  <br />
+  <br />
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Save
+  </button>
+</div>
+`;
+
+exports[`<SaveTasks /> Renders with filled inputs 1`] = `
+<div>
+  <h1>
+    Save Task
+  </h1>
+  User id:
+  <input
+    onChange={[Function]}
+    type="number"
+    value={123}
+  />
+  <br />
+  <br />
+  Title:
+  <input
+    onChange={[Function]}
+    value="Something"
+  />
+  <br />
+  <br />
+  <button
+    disabled={false}
+    onClick={[Function]}
+  >
+    Save
+  </button>
+</div>
+`;
