@@ -86,3 +86,97 @@ exports[`<SaveTasks /> Renders with filled inputs 1`] = `
   </button>
 </div>
 `;
+
+exports[`<SaveTasks /> Returns <Fatal /> when there is an error 1`] = `
+<div>
+  <h1>
+    Save Task
+  </h1>
+  User id:
+  <input
+    onChange={[Function]}
+    type="number"
+    value=""
+  />
+  <br />
+  <br />
+  Title:
+  <input
+    onChange={[Function]}
+    value=""
+  />
+  <br />
+  <br />
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Save
+  </button>
+  <Fatal
+    message="error"
+  />
+</div>
+`;
+
+exports[`<SaveTasks /> Returns <Redirect /> when needed 1`] = `
+<div>
+  <Redirect
+    to="/tasks"
+  />
+  <h1>
+    Save Task
+  </h1>
+  User id:
+  <input
+    onChange={[Function]}
+    type="number"
+    value=""
+  />
+  <br />
+  <br />
+  Title:
+  <input
+    onChange={[Function]}
+    value=""
+  />
+  <br />
+  <br />
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Save
+  </button>
+</div>
+`;
+
+exports[`<SaveTasks /> Returns <Spinner /> if loading 1`] = `
+<div>
+  <h1>
+    Save Task
+  </h1>
+  User id:
+  <input
+    onChange={[Function]}
+    type="number"
+    value=""
+  />
+  <br />
+  <br />
+  Title:
+  <input
+    onChange={[Function]}
+    value=""
+  />
+  <br />
+  <br />
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Save
+  </button>
+  <Spinner />
+</div>
+`;

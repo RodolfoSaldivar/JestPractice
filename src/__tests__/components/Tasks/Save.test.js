@@ -79,16 +79,19 @@ describe('<SaveTasks />', () => {
 
 	it('Returns <Spinner /> if loading', () => {
 		const save = shallow(<Save {...PROPS} loading />);
+		expect(save).toMatchSnapshot();
 		expect(save.find('Spinner')).toHaveLength(1);
 	});
 
 	it('Returns <Fatal /> when there is an error', () => {
 		const save = shallow(<Save {...PROPS} error="error" />);
+		expect(save).toMatchSnapshot();
 		expect(save.find('Fatal')).toHaveLength(1);
 	});
 
 	it('Returns <Redirect /> when needed', () => {
 		const save = shallow(<Save {...PROPS} return />);
+		expect(save).toMatchSnapshot();
 		expect(save.find('Redirect')).toHaveLength(1);
 	});
 
