@@ -54,7 +54,7 @@ exports[`<Posts /> displayPosts showInfo <Comments />, openClose(), getComments(
       onClick={[Function]}
     >
       <WithStyles(ForwardRef(ExpansionPanelSummary))
-        expandIcon={<Memo />}
+        expandIcon={<Memo(ExpandMoreIcon) />}
       >
         <h2>
           sunt aut facere repellat provident occaecati excepturi optio reprehenderit
@@ -90,7 +90,7 @@ exports[`<Posts /> displayPosts showInfo Displays <ExpansionPanel /> 1`] = `
       onClick={[Function]}
     >
       <WithStyles(ForwardRef(ExpansionPanelSummary))
-        expandIcon={<Memo />}
+        expandIcon={<Memo(ExpandMoreIcon) />}
       >
         <h2>
           sunt aut facere repellat provident occaecati excepturi optio reprehenderit
@@ -123,7 +123,7 @@ exports[`<Posts /> displayPosts showInfo Does not show <Comments /> 1`] = `
       onClick={[Function]}
     >
       <WithStyles(ForwardRef(ExpansionPanelSummary))
-        expandIcon={<Memo />}
+        expandIcon={<Memo(ExpandMoreIcon) />}
       >
         <h2>
           sunt aut facere repellat provident occaecati excepturi optio reprehenderit

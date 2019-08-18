@@ -1,20 +1,19 @@
+// 23280666790380
+
 import axios from 'axios';
-import thunk from 'redux-thunk';
+import reduxThunk from 'redux-thunk';
 import MockAdapter from 'axios-mock-adapter';
 import configureMockStore from 'redux-mock-store';
 import * as types from '../../types/usersTypes';
 import * as actions from '../../actions/usersActions';
 
-const middlewares = [thunk];
-const mockStore = configureMockStore(middlewares);
+const mockStore = configureMockStore([reduxThunk]);
 var axiosMock = new MockAdapter(axios);
 
 describe('Users Actions', () => {
-   //================================================
+   afterEach(() => axiosMock.reset());
 
    describe('getAll', () => {
-      afterEach(() => axiosMock.reset());
-
       const GET_URL = 'https://jsonplaceholder.typicode.com/users';
 
       it('Success', async () => {
@@ -25,7 +24,7 @@ describe('Users Actions', () => {
             { type: types.GET_ALL, payload: [{ id: 1 }] }
          ];
 
-         const store = mockStore({ users: [] });
+         const store = mockStore();
          await store.dispatch(actions.getAll());
          expect(store.getActions()).toEqual(expectedActions);
       });
@@ -41,7 +40,7 @@ describe('Users Actions', () => {
             }
          ];
 
-         const store = mockStore({});
+         const store = mockStore();
          await store.dispatch(actions.getAll());
          expect(store.getActions()).toEqual(expectedActions);
       });
